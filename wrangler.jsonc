@@ -13,7 +13,7 @@
   },
   "vars": {
     "R2_PUBLIC_BASE_URL": "https://your-tuxun-r2-public-domain.example",
-    "MUMO_PUBLIC_ORIGIN": "https://tuxun.invalid",
+    "MUMO_PUBLIC_ORIGIN": "https://tuxun-ai-site.qianning321.workers.dev",
     "MUMO_ENABLE_HISTORY_THUMBNAILS": "true"
   },
   "r2_buckets": [
