@@ -73,7 +73,7 @@ INSERT OR IGNORE INTO system_settings (key, value_json)
 VALUES ('recharge_purchase_config', '{"enabled":true,"emptyMessage":"购买链接暂未配置，请联系客服"}');
 
 INSERT OR IGNORE INTO system_settings (key, value_json)
-VALUES ('redeem_config', '{"enabled":true,"formatHint":"请输入 MUMO 兑换码"}');
+VALUES ('redeem_config', '{"enabled":true,"formatHint":"请输入 TuXun AI 兑换码"}');
 
 INSERT OR IGNORE INTO system_settings (key, value_json)
 VALUES ('admin_access_password', '{"password":"","note":"上线前应改为安全哈希验证"}');
