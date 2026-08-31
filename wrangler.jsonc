@@ -29,7 +29,7 @@
     {
       "binding": "MUMO_DB",
       "database_name": "tuxun_ai_db",
-      "database_id": "00000000-0000-0000-0000-000000000000",
+      "database_id": "8bd50d9c-0a63-426e-bdaf-f83a42c9b1d7",
       "migrations_dir": "migrations/d1"
     }
   ]
