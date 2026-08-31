@@ -1,0 +1,15 @@
+{
+  "name": "mumo-provider-result-archiver",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "archive:once": "bun src/cli-once.ts",
+    "archive:worker": "bun src/cli-worker.ts",
+    "test": "bun test",
+    "typecheck": "bunx tsc --noEmit -p tsconfig.json",
+    "thumbnail:backfill": "bun src/cli-thumbnail-backfill.ts"
+  },
+  "dependencies": {
+    "sharp": "0.34.5"
+  }
+}

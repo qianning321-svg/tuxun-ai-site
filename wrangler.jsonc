@@ -1,0 +1,36 @@
+﻿{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "tuxun-ai-site",
+  "compatibility_date": "2025-09-24",
+  "compatibility_flags": ["nodejs_compat"],
+  "main": "src/server.ts",
+  "observability": {
+    "enabled": true,
+    "head_sampling_rate": 1
+  },
+  "assets": {
+    "directory": ".output/public"
+  },
+  "vars": {
+    "R2_PUBLIC_BASE_URL": "https://your-tuxun-r2-public-domain.example",
+    "MUMO_PUBLIC_ORIGIN": "https://tuxun.invalid",
+    "MUMO_ENABLE_HISTORY_THUMBNAILS": "true"
+  },
+  "r2_buckets": [
+    {
+      "binding": "MUMO_GENERATED_IMAGES",
+      "bucket_name": "tuxun-ai-generated-images"
+    }
+  ],
+  "images": {
+    "binding": "IMAGES"
+  },
+  "d1_databases": [
+    {
+      "binding": "MUMO_DB",
+      "database_name": "tuxun_ai_db",
+      "database_id": "00000000-0000-0000-0000-000000000000",
+      "migrations_dir": "migrations/d1"
+    }
+  ]
+}
